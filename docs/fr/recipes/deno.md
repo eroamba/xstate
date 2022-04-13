@@ -1,11 +1,11 @@
 # Usage with Deno
 
-[Deno](https://deno.land/) is an alternate TypeScript/JavaScript runtime, similar to NodeJS, but has built-in TypeScript support and is not intantly compatable with most npm packages.
+[Deno](https://deno.land/) est un environnement d'exécution TypeScript/JavaScript alternatif, similaire à NodeJS, mais prend en charge TypeScript sintégré et n'est pas immédiatement compatible avec la plupart des packages npm.
 
-So to run XState on Deno, you need to import it differently, via [Skypack](https://www.skypack.dev/). Packages are 'installed' at runtime; no more `/node_modules`!
+Donc, pour exécuter XState sur Deno, vous devez l'importer différemment, via [Skypack](https://www.skypack.dev/). Les packages sont "installés" au moment de l'exécution ; plus de `/node_modules`!
 
 ```js
 import { createMachine } from 'https://cdn.skypack.dev/xstate';
 ```
 
-You can see it [in action here](https://www.mycompiler.io/view/B8EgR64).
+Vous pouvez le voir [en action ici](https://www.mycompiler.io/view/B8EgR64).
